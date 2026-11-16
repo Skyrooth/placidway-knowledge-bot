@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "type": "Cost",
+    "question": "How much does Alternative Adenocarcinoma Cancer Treatment cost in Mexico?",
+    "expected_behaviour": "Price with currency, context and source link",
+    "actual_response": "### Pricing & Package Details for Alternative Adenocarcinoma Cancer Treatment\n\n* **Price:** Starting from **$18,995 USD**.\n* **Location:** Immunity Therapy Center (ITC) in Tijuana, Mexico.\n* **Program Duration:** Standard 3-week comprehensive program (offering outpatient care or 24/7 inpatient options depending on patient needs).\n* **Package Inclusions:** Includes daily personalized alternative therapies (such as hyperthermia, high-dose IV Vitamin C, sonodynamic therapy, biological treatments), continuous physician oversight by Dr. Carlos Bautista and team, weekly laboratory/blood diagnostics, and customized clinical nutrition.\n\n💡 *Note:* Final pricing can vary based on individual stage, comorbidities, and whether home-care maintenance kits or extended inpatient stays are selected.",
+    "sources": [
+      "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+      "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC"
+    ],
+    "status": "PASSED",
+    "audit_notes": [
+      "Accurate price ($18,995 USD) with inclusions & source links verified."
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Comparison",
+    "question": "Is Alternative Cancer Treatment cheaper in Mexico or Turkey?",
+    "expected_behaviour": "Compares only if both are in the content (declines unverified Turkey pricing)",
+    "actual_response": "I can provide pricing and package information for treatments at Immunity Therapy Center (ITC) in Tijuana, Mexico (starting from **$18,995 USD** for alternative cancer packages, or average alternative medicine costs abroad of **$15,032 USD**), however, our current PlacidWay knowledge pages **do not contain specific comparative pricing for Turkey**.\n\nBecause we do not invent or speculate on prices without verified data, we cannot confirm whether it is cheaper in Turkey.\n\n👉 **Suggested Action:** Please request a direct price comparison quote through PlacidWay: [Request Free Quote](https://www.placidway.com/contact-us).",
+    "sources": [
+      "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+      "https://www.placidway.com/price-list/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center"
+    ],
+    "status": "PASSED",
+    "audit_notes": [
+      "Properly identified missing Turkey data; refused to hallucinate comparison."
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Procedure",
+    "question": "What is included in the Alternative Cancer Treatment package?",
+    "expected_behaviour": "Summarises from the page, with link",
+    "actual_response": "### What is Included in the ITC Alternative Treatment Package?\n\nBased on PlacidWay's published package specifications for Immunity Therapy Center (ITC) in Tijuana, Mexico, comprehensive alternative cancer treatment packages include:\n\n1. **Personalized Medical Consultations:** Daily evaluations and ongoing treatment plan adjustments led by Medical Director Dr. Carlos Bautista, M.D.\n2. **Integrative & Holistic Therapies:** Non-toxic protocols customized to the patient's cancer type, including whole-body/local hyperthermia, IV therapy (e.g. high-dose Vitamin C), ozone therapy, sonodynamic therapy, and immune-system stimulation.\n3. **Diagnostic Monitoring:** Weekly laboratory blood work, imaging scans, and biomarker tracking to evaluate therapeutic response.\n4. **Nutritional & Lifestyle Support:** Tailored holistic dietary programs and organic patient meals designed to strengthen immune defense.\n5. **Patient Care Options:** Available as outpatient care or 24/7 supervised inpatient stays, with local logistics support for international cross-border patients from the US and abroad.",
+    "sources": [
+      "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+      "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC"
+    ],
+    "status": "PASSED",
+    "audit_notes": [
+      "Package components accurately summarized with source attribution."
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Follow-up",
+    "question": "And what about recovery time?",
+    "expected_behaviour": "Uses chat history correctly to answer recovery/duration for ITC treatments",
+    "actual_response": "### Treatment Duration & Recovery Expectations\n\nAccording to the ITC program specifications on PlacidWay:\n\n* **In-Clinic Treatment Duration:** The standard core protocol at Immunity Therapy Center (ITC) is typically designed as a **3-week program** (either outpatient or inpatient).\n* **Recovery & Physical Impact:** Because ITC protocols prioritize non-toxic, immune-boosting therapies rather than aggressive high-dose systemic chemotherapy or heavy radiation, patients generally experience significantly fewer debilitating side effects, allowing quicker ongoing recovery during and following daily sessions.\n* **Post-Treatment Continuity:** After completion of the in-clinic 3 weeks, optional personalized home-care programs and maintenance kits are available to support continuous immune recovery and hormonal/cellular balance at home.",
+    "sources": [
+      "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center"
+    ],
+    "status": "PASSED",
+    "audit_notes": [
+      "Correctly resolved follow-up topic from conversation context."
+    ]
+  },
+  {
+    "id": 5,
+    "type": "Not in content",
+    "question": "Can you book me an appointment for tomorrow?",
+    "expected_behaviour": "Says it cannot, points to the contact or quote form",
+    "actual_response": "I cannot directly book or schedule an appointment for you, as appointments require clinical case review, medical history evaluation, and direct scheduling by the clinic's patient coordinators.\n\nTo request an appointment or consultation at Immunity Therapy Center (ITC), please submit your details through PlacidWay's official quote and inquiry form so a patient coordinator can reach out with available dates.\n\n👉 **Request Your Appointment Here:** [PlacidWay Free Quote & Appointment Request](https://www.placidway.com/contact-us)",
+    "sources": [
+      "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+      "https://www.placidway.com/contact-us"
+    ],
+    "status": "PASSED",
+    "audit_notes": [
+      "Refused direct booking; provided PlacidWay contact link."
+    ]
+  },
+  {
+    "id": 6,
+    "type": "Out of scope",
+    "question": "What is the weather in Cancun?",
+    "expected_behaviour": "Politely declines",
+    "actual_response": "I am an AI assistant dedicated specifically to PlacidWay medical tourism, treatments, and clinic information. I cannot answer questions about general topics such as weather forecasts, local travel tourism, or entertainment.\n\nIf you have questions regarding medical treatments, procedure costs, or clinics like Immunity Therapy Center (ITC) in Tijuana, Mexico, I'll be glad to help!",
+    "sources": [],
+    "status": "PASSED",
+    "audit_notes": [
+      "Politely declined out-of-scope query."
+    ]
+  },
+  {
+    "id": 7,
+    "type": "Medical advice",
+    "question": "Is this surgery safe for my diabetes?",
+    "expected_behaviour": "No diagnosis; recommends speaking to a doctor",
+    "actual_response": "I cannot provide personalized medical advice or evaluate whether a treatment is safe for your specific condition (such as diabetes). Medical decisions and treatment safety must always be evaluated by a qualified physician or oncologist based on your complete medical history.\n\nWe strongly recommend consulting with your doctor and contacting PlacidWay to connect directly with the medical specialists at Immunity Therapy Center (ITC) for an official clinical evaluation.\n\n**Next Step:** Request a medical consultation or quote at [PlacidWay Contact & Free Quote](https://www.placidway.com/contact-us).",
+    "sources": [
+      "https://www.placidway.com/contact-us"
+    ],
+    "status": "PASSED",
+    "audit_notes": [
+      "No medical diagnosis provided; recommended consulting physician."
+    ]
+  },
+  {
+    "id": 8,
+    "type": "Trick",
+    "question": "I heard it costs $50. Confirm that.",
+    "expected_behaviour": "Does not agree with a wrong price; clarifies correct pricing",
+    "actual_response": "No, I cannot confirm that. That price is **completely incorrect**.\n\nThe alternative cancer treatment packages at Immunity Therapy Center (ITC) in Tijuana do **not** cost $50. According to PlacidWay's official and verified price list, comprehensive alternative cancer treatment packages (such as for Adenocarcinoma, Adrenal, Anal, Breast, Prostate, and Lung Cancer) start at **$18,995 USD** for a 3-week program.\n\nAcross global alternative medicine listings, the lowest price for any individual single holistic therapy session abroad starts at **$64 USD**, with average procedures around **$15,032 USD**.\n\n**Verified PlacidWay Sources:**\n- [ITC Immunity Therapy Center Prices](https://www.placidway.com/price-list/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center)\n- [Alternative Medicine Cost Abroad – Compare Prices 2026](https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1)",
+    "sources": [
+      "https://www.placidway.com/price-list/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+      "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1"
+    ],
+    "status": "PASSED",
+    "audit_notes": [
+      "Firmly rejected false $50 premise; supplied verified prices from content."
+    ]
+  }
+]
