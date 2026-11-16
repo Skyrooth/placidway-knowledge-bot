@@ -39,12 +39,16 @@ st.markdown("""
         margin-bottom: 10px;
     }
     .source-box {
-        background-color: #f0f7fc;
+        background-color: rgba(11, 92, 158, 0.12);
         border-left: 4px solid #0b5c9e;
         padding: 10px 14px;
-        border-radius: 4px;
+        border-radius: 6px;
         font-size: 0.9rem;
         margin-top: 10px;
+    }
+    .source-box a {
+        color: #1a8cff;
+        word-break: break-all;
     }
     .disclaimer-box {
         background-color: #fff9e6;
@@ -89,7 +93,7 @@ bot = get_engine()
 
 # --- SIDEBAR CONTROLS ---
 with st.sidebar:
-    st.image("https://www.placidway.com/images/logo.png", width=210) if False else st.markdown("### 🏥 **PlacidWay Portal**")
+    st.markdown("### 🏥 **PlacidWay Portal**")
     st.markdown("<span class='badge-status'>● Knowledge Base Active (7 Pages)</span>", unsafe_allow_html=True)
     st.caption("AI Automation Engineer Assessment Submission")
     
